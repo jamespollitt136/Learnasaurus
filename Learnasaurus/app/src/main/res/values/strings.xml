@@ -1,0 +1,952 @@
+<resources>
+    <string name="app_name">Learnasaurus</string>
+    <string name="app_tagline">little arms, big brains</string>
+    <string name="logo_description">This is the Learnasaurus logo</string>
+
+    <string name="app_copy">Learnasaurus&#169; 2017</string>
+
+    <string name="leaderboard_id">CgkIrqu_x-kEEAIQAQ</string>
+
+    <string name="exercise_string">Exercise</string>
+    <string name="advanced_exercise_string">Advanced Exercise</string>
+    <string name="example_string">Example</string>
+    <string name="answer_string">Your Answer:</string>
+    <string name="course_string">Please select a course:</string>
+    <string name="subject_string">Please select a subject:</string>
+    <string name="module_string">Please choose a module:</string>
+    <string name="lesson_string">Please choose a lesson:</string>
+
+    <string name="hint_string">Hint</string>
+
+    <string name="continue_button">Continue</string>
+    <string name="show_answer_text">Click to show answer</string>
+    <string name="check_answer_button">Check Answers</string>
+    <string name="ok_button">OK</string>
+
+    <string name="bool_string">boolean</string>
+    <string name="byte_string">byte</string>
+    <string name="char_string">char</string>
+    <string name="double_string">double</string>
+    <string name="float_string">float</string>
+    <string name="int_string">int</string>
+    <string name="long_string">long</string>
+    <string name="short_string">short</string>
+    <string name="string_string">String</string>
+
+    <!-- Strings related to Activity Titles -->
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_main">Main</string>
+
+    <!-- Strings related to the NavigationDrawer (MainActivity) -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_home_option">Home</string>
+    <string name="nav_mygrades_option">Achievements</string>
+    <string name="nav_leaderboard_option">Leaderboard</string>
+    <string name="nav_socialpresence_option">Social</string>
+    <string name="nav_about_option">About</string>
+    <string name="nav_settings_option">Settings</string>
+    <string name="nav_logout_option">Sign Out</string>
+
+    <!-- Strings related to the Action Bar menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <!-- Strings related to LoginActivity -->
+    <string name="login_button">Log In</string>
+    <string name="login_username_hint">email address</string>
+    <string name="login_password_hint">password</string>
+    <string name="login_register_text">Register</string>
+
+    <!-- Strings related to RegisterActivity -->
+    <string name="registration_button">Register</string>
+    <string name="reg_name_hint">first name</string>
+    <string name="reg_surname_hint">surname</string>
+    <string name="reg_email_hint">email address</string>
+    <string name="reg_pass_hint">password</string>
+    <string name="reg_conf_hint">confirm password</string>
+
+    <string name="reg_signin_text">Already have an account? Sign in.</string>
+
+    <!-- Strings related to HomeFragment -->
+    <string name="home_comp_text">Computing</string>
+    <string name="home_comp_descr">Computing course</string>
+    <string name="home_english_text">English</string>
+    <string name="home_english_descr">English course</string>
+    <string name="home_geography_text">Geography</string>
+    <string name="home_geography_descr">Geography course</string>
+    <string name="home_history_text">History</string>
+    <string name="home_history_descr">History course</string>
+    <string name="home_languages_text">Languages</string>
+    <string name="home_languages_descr">Languages course</string>
+    <string name="home_maths_text">Maths</string>
+    <string name="home_maths_descr">Maths course</string>
+    <string name="home_science_text">Science</string>
+    <string name="home_science_descr">Science course</string>
+
+    <!-- Strings related to AboutFragment -->
+    <string name="about_us_label">About Us</string>
+    <string name="about_goal_text">At Learnasaurus we aim to give children the chance to learn
+            new skills or refine their current knowledge. The app is intended to be used on the go,
+            20 minutes at a time until the day you are an expert.</string>
+    <string name="about_version_text">Version Number: 1.0.0</string>
+    <string name="about_copyright_text">Developed by James Pollitt at the University of Salford.
+        </string>
+    <string name="about_android_text">Developed for Android with Android Studio 2.2</string>
+    <string name="about_bugdroid_description">The Android Bugdroid</string>
+    <string name="about_studio_description">The Android Studio Logo</string>
+    <string name="about_uos_description">University of Salford Logo</string>
+
+    <!-- Strings related to SocialFragment -->
+    <string name="social_pages_label">Social</string>
+    <string name="social_facebook_text">facebook.com/learnasaurus</string>
+    <string name="social_facebook_description">Facebook logo</string>
+    <string name="social_twitter_text">\u0040LearnasaurusApp</string>
+    <string name="social_twitter_description">Twitter logo</string>
+
+    <!-- Strings related to correct_dialogxml -->
+    <string name="congrats_title">Congratulations</string>
+    <string name="congrats_text">You passed the exercise!</string>
+
+    <!-- Strings related to ComputingFragment -->
+    <string name="comp_csharp_descr">C#(sharp) subject</string>
+    <string name="comp_css_descr">CSS3 subject</string>
+    <string name="comp_html_descr">HTML5 subject</string>
+    <string name="comp_java_descr">Java subject</string>
+    <string name="comp_javascript_descr">JavaScript subject</string>
+    <string name="comp_php_descr">PHP subject</string>
+    <string name="comp_ruby_descr">Ruby subject</string>
+    <string name="comp_swift_descr">Swift subject</string>
+
+    <!-- Strings related to JavaFragment -->
+    <string name="java_basics_descr">Basics module</string>
+    <string name="java_collections_descr">Collections module</string>
+    <string name="java_loops_descr">Loops module</string>
+    <string name="java_relationships_descr">Relationships module</string>
+    <string name="java_statements_descr">Statements module</string>
+    <string name="java_test_descr">End of subject test</string>
+
+    <!-- Strings related to JavaBasicsFragment -->
+    <string name="java_oop_descr">OOP lesson</string>
+    <string name="java_objects_descr">Objects lesson</string>
+    <string name="java_classes_descr">Classes lesson</string>
+    <string name="java_naming_descr">Naming lesson</string>
+    <string name="java_variables_descr">Variables lesson</string>
+    <string name="java_methods_descr">Methods lesson</string>
+
+    <!-- Strings related to ComputingOOPFragment -->
+    <string name="java_basics_oop">Object-Oriented Programming</string>
+    <string name="java_oop_what">What is Object-Oriented Programming?</string>
+    <string name="java_basics_oop_intro">Object-Oriented Programming is centered around objects.
+        \n\nWhen a programming language like C++ or Java is object-oriented, it means that it is focused
+        on data contained within objects rather than following instructions straight to a system.</string>
+    <string name="java_basics_oop_advq">What are the advantages of OOP?</string>
+    <string name="java_basics_oop_adva">
+        Code Reuse: Objects can be reused and recycled by other programs.
+        \n\nEncapsulation: Objects can hide some of their parts to prevent certain features being changed.
+        (Think of encapsulation as placing things inside of a container).
+        \n\nMaintenance: Easy to modify and maintain object-oriented programs.
+    </string>
+    <string name="java_basics_oop_adv_tts">
+        What are the advantages of Oh Oh Pee?
+        Code Reuse: Objects can be reused and recycled by other programs.\n\n
+        Encapsulation: Objects can hide some of their parts to prevent certain features being changed.
+        (Think of encapsulation as placing things inside of a container).\n\n
+        Maintenance: Easy to modify and maintain object-oriented programs.
+    </string>
+    <string name="java_basics_oop_disq">Does OOP have any problems?</string>
+    <string name="java_basics_oop_disa">
+         Of course!\n\nSome issues which exist are:
+         \nSize: Object-Oriented programs are typically larger than in size than other types of programs.
+         This isn\'t much of a problem now due to the amount of space we have access to.
+         \n\nSpeed: Due to the size of Object-Oriented programs, they tend to be slow.
+    </string>
+    <string name="java_oop_disadv_tts">
+        Does Oh Oh Pee have any problems?
+        Of course!\n\nSome issues which exist are:
+        \nSize: Object-Oriented programs are typically larger than in size than other types of programs.
+        This isn\'t much of a problem now due to the amount of space we have access to.
+        \n\nSpeed: Due to the size of Object-Oriented programs, they tend to be slow.
+    </string>
+    <string name="java_basics_oop_usesq">What languages use OOP?</string>
+    <string name="lang_csharp">C#</string>
+    <string name="lang_dart">Dart</string>
+    <string name="lang_java">Java</string>
+    <string name="lang_lingo">Lingo</string>
+    <string name="lang_php">PHP</string>
+    <string name="lang_python">Python</string>
+    <string name="lang_ruby">Ruby</string>
+    <string name="lang_swift">Swift</string>
+    <string name="lang_vb">Visual Basic</string>
+    <string name="java_oop_langs_tts">
+        So what languages use object oriented programming?
+        C sharp, Java, PHP and Swift are a few examples.
+    </string>
+
+    <!-- Strings related to JavaObjectsFragment -->
+    <string name="java_basics_objects">Objects</string>
+    <string name="java_objects_intro">Objects are all around us in our everyday lives. An animal, car
+        and chair are all objects.
+        \n\nAll objects are defined by their states and behaviours. The state of an object would be
+        how you describe the object. For example, if you have a pet dog, it\'s state is its name,
+        breed, age, height and colour.
+        \n\nBehaviours of an object, are how the object acts. Sticking with a dog we can see that they:
+        run, jump and bark. These are all actions the dog can perform and are the behaviours of the dog.
+    </string>
+    <string name="java_objects_tech">Thinking of Technology</string>
+    <string name="java_objects_techstate">The device you are using to read this is an object!
+        \nWe know that objects have states and behaviours, so what would the states and behaviours
+        of your device be?
+        \n\nWe can see the states of your device here:
+    </string>
+    <string name="java_objects_behaviours">Smartphones and tablets also have behaviours.
+    \nA phone can ring, connect to the internet and take pictures. These are all behaviours of a phone.
+    </string>
+    <string name="java_objects_java">Objects in Java</string>
+    <string name="java_objects_java_intro">In Java, our objects are created from classes.
+        \nWe now know that objects have both states and behaviours. In Java, an objects state would be
+        stored in it\'s fields and its behaviours generated from methods.</string>
+    <string name="java_objects_playground">Objects Playground</string>
+    <string name="java_objects_pg_intro">In this playground, you have free rein to experiment with
+        an object\'s states and behaviours.
+        \n\nOur object is a circle. Use the input menu (behaviours) below the circle to control the
+        circle\'s state.
+    </string>
+
+    <!-- Strings related to JavaClassesFragment -->
+    <string name="java_basics_classes">Classes</string>
+    <string name="java_classes_intro">Excuse the space, this content is currently being developed!
+    \n\nWatch the video below to learn about classes in the time being!</string>
+    <string name="java_classes_vid_text">This video belongs to WebDevMentors.</string>
+
+    <!-- Strings related to JavaNamingFragment -->
+    <string name="java_basics_naming">Naming Conventions</string>
+    <string name="java_naming_convq">What are Java\'s naming conventions?</string>
+    <string name="java_naming_conva">Naming conventions are an unforced rule you should follow when
+        deciding what to name your identifiers (class, variables, methods, etc.).
+    </string>
+    <string name="java_naming_camelcase">CamelCase</string>
+    <string name="java_naming_cameluse">Java uses something called CamelCase syntax to name objects,
+        classes and variables.
+        \n\nYou have probably seen CamelCase in use many times and not known about it!
+    </string>
+    <string name="java_naming_camel_famous">Some famous examples of CamelCase are: iPhone, PlayStation
+        and YouTube.</string>
+    <string name="java_naming_examples">Naming Examples</string>
+    <string name="java_naming_examplesa">For a class we should start with a capital letter and if we
+        have more than one word, we join them together. Each word in the name should start with a capitalised
+        letter.
+        \n\nAn example for a class defining green apples, we could name it GreenApples.
+        \n\nVariables are different. We use a style similar to the word, iPhone.
+        \nWe still join words together but the first word is entirely lowercase. Any words that follow should
+        have the first letter capitalised.
+        \nAn example for a variable to contain a first name would be firstName.
+        \n\nMethods are similar to variables when it comes to naming them! The first word is lowercase
+        and any joined words begin with a capital. The method name is then followed by ().
+        \nAn example for naming a method which sends the computer to sleep could be goToSleep().
+        \n\nYou can learn more about variables and methods in the basics lesson\'s for each.
+    </string>
+    <string name="java_naming_exercise_intro">Let\'s try naming some classes, variables and methods.
+        \nScenario: All naming will be related to a person and their attributes. Our person is named
+        John Smith.
+    </string>
+    <string name="class_text">Class (Person name)</string>
+    <string name="variable_text">Variable (eye colour)</string>
+    <string name="if_variable_hint">this is the variable name, not the value</string>
+    <string name="method_text">Method (say hello)</string>
+    <string name="java_naming_next">Basics: Variables</string>
+    <string name="java_naming_sec1_tts">
+        Naming conventions are an unforced rule you should follow when deciding what to name your
+        identifiers such as classes, variables, methods, etc.
+    </string>
+    <string name="java_naming_sec2_tts">
+        Java uses something called camel case syntax to name objects, classes and variables.
+        You have probably seen camel case in use many times and not known about it!
+        Some famous examples of camel case are: iPhone, PlayStation and YouTube.
+    </string>
+    <string name="java_naming_sec3_tts">
+        For a class we should start with a capital letter and if we have more than one word, we put
+        them together. Each word in the name should start with a capitalised letter.
+        An example for a class defining green apples, we could name it Green Apples with no space between
+        the two words.
+        Variables are different. We use a style similar to the word, iPhone.
+        We still join words together but the first word is entirely lowercase. Any words that follow should
+        have the first letter capitalised.
+        An example for a variable to contain a first name would be firstName, with no space between the two
+        words.
+        Methods are similar to variables when it comes to naming them! The first word is lowercase
+        and any joined words begin with a capital letter. The method name is then followed by brackets.
+        An example for naming a method which sends the computer to sleep could be go to sleep as one joined word
+        followed by open and close brackets.
+    </string>
+    <string name="java_naming_sec4_tts">
+        Let\'s try naming some classes, variables and methods by completing this exercise.
+        Scenario: All of the naming will be related to a person and their attributes. Our person is named
+        John Smith.
+    </string>
+
+    <!-- Strings related to JavaVariablesFragment -->
+    <string name="java_var_dt">Variables and Data Types</string>
+    <string name="java_var_what">What are variables?</string>
+    <string name="java_var_whata"><![CDATA[
+        Variables are a piece of memory which contains data/a value.
+        <br/>Instance variables (fields) are a small amount of space where we store data continuously
+        within an object.
+        <br/><br/>This is how we declare a String variable:
+        <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>private</font> String
+        <font color=#800080>name</font>;
+        <br/><br/>You may be wondering how this can be broken down, let\'s take a look.
+        <br/><font color=#0000FF>private</font> is the access modifier for the field/variable.
+        <br/>String is the data type of the variable.
+        <br/><font color=#800080>name</font> is the name of the variable.
+        <br/>; signifies the end of a statement.
+    ]]></string>
+    <string name="java_var_what_tts">
+        Variables are a piece of memory which contains data or a value.
+        Instance variables (fields) are a small amount of space where we store data continuously
+        within an object. We declare a variable in the following way: private String name. You may be
+        wondering how this can be broken down, let\'s take a look. private is the access modifier for
+        the field/variable. String is the data type of the variable. name is the name of the variable.
+        the semi-colon signifies the end of a statement.
+        As you know, variables are small amounts of memory in which we store data. A data type allows the
+        operating system (Windows, Mac or Linux) to allocate the memory and decide what can be stored in the
+        memory.
+        You may have seen words like String or int when using the application, these are data types.
+        There are two types of data types in Java; primitive and reference.
+    </string>
+
+    <string name="java_var_dtypes">Data Types</string>
+    <string name="java_var_primdata"><![CDATA[
+    As you know, variables are small amounts of memory in which we store data. A data type allows the
+    operating system (Windows, Mac, Linux) to allocate the memory and decide what can be stored in the
+    memory.
+    <br/><br/>You may have seen words like String or int when using the application, these are
+    <b>data types</b>. There are two types of data types in Java; primitive and reference.
+    ]]></string>
+    <string name="java_var_datatypes_tts">
+        As you know, variables are small amounts of memory in which we store data. A data type allows
+        the operating system (Windows, Mac, Linux) to allocate the memory and decide what can be
+        stored in the memory.
+        You may have seen words like String or int when using the application, these are data types.
+        There are two types of data types in Java; primitive and reference.
+    </string>
+    <string name="java_var_primitive">Primitive Data Types</string>
+    <string name="java_var_primtext">Primitive data types are predefined by the language and are
+        named by a keyword (you will recognise these keywords as having blue text in our code examples!).
+        There are 8 primitive data types which Java supports. These are:
+    </string>
+    <string name="java_var_reference">Reference Data Types</string>
+    <string name="java_var_refdata"><![CDATA[
+    A reference type is a data type which is based on a class rather than a primitive which is
+    built into the Java language.
+    <br/><br/>A difference between the two types are that reference data types store addresses
+    whilst primitive store actual values.
+    Another difference is that unlike primitive data types, reference data types can\'t be recognised
+    by highlighted keywords but you may already recognise some of them:
+    <br/>String, Scanner, Random, etc.
+    <br/><br/><br/>Let\'s now look into grouping similar data types together to make it easier to understand
+    the type of data each can store.
+    ]]></string>
+    <string name="java_var_primtypes_tts">
+        Primitive data types are predefined by the language and are
+        named by a keyword (you will recognise these keywords as having blue text in our code examples!).
+        There are 8 primitive data types which Java supports. These are: boolean, byte, char, double,
+        float, int, long and short.
+    </string>
+    <string name="java_var_reftypes_tts">
+        The other type of data types is a reference type. A reference type is a data type which is
+        based on a class rather than a primitive which is built into the Java language. A difference
+        between the two types are that reference data types store addresses whilst primitive store
+        actual values. Another difference is that unlike primitive data types, reference data types
+        can\'t be recognised by highlighted keywords but you may already recognise some of them as String,
+        Scanner and random are examples of reference data types.
+        Let\'s now look into grouping similar data types together to make it easier to understand
+        the type of data each can store.
+    </string>
+    <string name="java_var_numeric">Numeric Variables</string>
+    <string name="java_var_char">Character Based Variables</string>
+    <string name="java_var_logic">Logic Variables</string>
+    <string name="java_var_chartypes"><![CDATA[
+    Character types will look like letters, words or sentences.
+    <br/><br/>If you\'ve completed other lessons, you will already be familiar with Strings. Strings are
+     often shown as words or sentences. A String looks like <font color=#0cc706>&quot;Hi, how are you?&quot;</font>.
+     <br/><br/>Char gets it\'s name from <i>character</i>. A character is one letter. The English
+     alphabet has 26 letters OR the English alphabet has 26 characters. A char looks similar to a String -
+     <font color=#0cc706>\'A\'</font> with the major difference being the length each type can hold.
+     A char can hold one letter whilst a String can hold many!
+     <br/>Another key difference you may have not noticed is that Strings use a double quote or speech
+     mark (<font color=#0cc706>&quot;</font>) whilst char uses a single quote or apostrophe (<font color=#0cc706>\'</font>).
+     <br/><br/>Here\'s how to declare and initialise both a char and a String variable.
+     <br/><font color=#0000FF>private char</font> <font color=#800080>myChar</font> = <font color=#0cc706>\'a\'</font>;
+     <br/><font color=#0000FF>private</font> String <font color=#800080>myString</font> = <font color=#0cc706>"This is a String"</font>;
+     <br/><br/>When we want to store text we will use one of these two character-based variables.
+    ]]></string>
+    <string name="java_var_charac_tts">
+        Character types will look like letters, words or sentences. If you\'ve completed other lessons,
+        you will already be familiar with Strings. Strings are often shown as words or sentences. A
+        String looks like a sentence such as Hi, how are you? within quotation marks.
+        Char gets it\'s name from <i>character</i>. A character is one letter. The English
+        alphabet has 26 letters OR the English alphabet has 26 characters. A char looks similar to a
+        String with the major difference being the length each type can hold. A char can hold one
+        letter whilst a String can hold many! Another key difference you may have not noticed is that
+        Strings use a double quote or speech mark whilst char uses a single quote or apostrophe.
+        When we want to store text we will use one of these two character-based variables.
+    </string>
+    <string name="java_var_logtypes"><![CDATA[
+     Logic variables are known as a <b>Boolean</b>. A Boolean variable contains either a true or
+     false value.
+     <br/>A declaration and initialisation example of a Boolean variable:
+     <br/><font color=#0000FF>private boolean</font> <font color=#800080>theSkyIsBlue</font> = <font color=#0000FF>true</font>;
+     <br/><font color=#0000FF>private boolean</font> <font color=#800080>theSkyIsRed</font> = <font color=#0000FF>false</font>;
+     <br/><br/>An important note: the single equals symbol (<b>=</b>) is an assignment operator.
+     This gives a variable its value as you have seen. Another symbol you may see is double equals
+     (<b>==</b>). We would use double equals (<b>==</b>) when we want to check if a variable has a
+     value of true or false.
+     <br/><br/>Booleans allow us to compare variables and values together using Boolean logic such as
+     && (AND) or || (OR).
+     <br/><br/>The symbol && is the logical AND operator. This operator compares two values (on the
+     left and right side of the operator) and will have a result of true if both values are the same or
+     false if they are not.
+     <br/><br/>The symbol || is the logical OR operator. This operator compares two values (on the
+     left and right side of the operator) and will have a result of true if one of the values is true.
+     The OR operator gives a result of false if neither of the values being compared are true.
+     <br/><br/>Lastly is our logical NOT operator. You will see this as an exclamation mark (<b>!</b>).
+     We can use this operator to check if a value doesn\'t equal true or false (<b>!=</b>). This can be
+     shortened when checking the value of variable to look like:
+     <br/><font color=#0000FF>if</font> (!theSkyIsBlue)
+     <br/>In natural English this says, if theSkyIsBlue is false or if the sky is not blue.
+     ]]></string>
+    <string name="java_var_logic_tts">Logic variables are known as a <b>Boolean</b>. A Boolean variable
+        contains either a true or false value. A declaration and initialisation example of a Boolean variable
+        would be: private boolean the Sky Is Blue = true or private boolean the Sky Is Red = false.
+        An important note: the single equals symbol is an assignment operator. This gives a variable
+        its value as you have seen. Another symbol you may see is double equals. We would use double
+        equals when we want to check if a variable has a value of true or false. Booleans allow us to
+        compare variables and values together using Boolean logic such as logical and or logical or.
+        The double ampersand symbol is the logical AND operator. This operator compares two values (on the
+        left and right side of the operator) and will have a result of true if both values are the same or
+        false if they are not.
+        The double vertical line symbol is the logical OR operator. This operator compares two values (on the
+        left and right side of the operator) and will have a result of true if one of the values is true.
+        The OR operator gives a result of false if neither of the values being compared are true.
+        Lastly is our logical NOT operator. You will see this as an exclamation mark. We can use this
+        operator to check if a value doesn\'t equal true or false.
+        we can check if a boolean variable is not equal to something in the following way:
+        if exclamation mark the sky is blue.
+        In natural English this says, if the Sky Is Blue is false or if the sky is not blue.
+    </string>
+    <string name="java_var_numtypes"><![CDATA[
+    Variables with a numeric data type allow us to store numbers. The majority of Java\'s primitive
+    data types are numeric with 6 of the 8 being numeric.
+    <br/><i>"If there are so many numerical data types, whats the difference?"</i>
+    The data types you will notice more of are int, float and double. The difference between these 3
+    data types are the amount of space needed to store the data, the types of values they can hold
+    and the precision of the value.
+    <br/><br/>An int or float value would take up 4 bytes whereas a double would take up 8 bytes.
+    <br/><br/>An int can only store whole numbers. This makes them less precise than float or double.
+    This means that a value such as 1, 100 or 10000 is perfectly acceptable.
+    <br/><br/>A variable which needs to contain a more precise value such as a number which has a
+    decimal point would be much better suited to using a float or double.
+    <br/><br/>Let\'s see how we would declare and give values to our numeric variables.
+    <br/><font color=#0000FF>private int</font> <font color=#800080>myInt</font> = <font color=#0000FF>320</font>;
+    <br/><font color=#0000FF>private float</font> <font color=#800080>myFloat</font> = <font color=#0000FF>34.0f</font>;
+    <br/><font color=#0000FF>private double</font> <font color=#800080>myDouble</font> = <font color=#0000FF>15.5</font>;
+    <br/><br/>Note the visual difference between a float and a double value. A float has a lowercase f
+    following the value whereas a double is just the value.
+    ]]></string>
+    <string name="java_var_numeric_tts">Variables with a numeric data type allow us to store numbers. The
+        majority of Java\'s primitive data types are numeric with 6 of the 8 being numeric. You may
+        be asking, "If there are so many numerical data types, whats the difference?"
+        The data types you will notice more of are int, float and double. The difference between these 3
+        data types are the amount of space needed to store the data, the types of values they can hold
+        and the precision of the value. An int or float value would take up 4 bytes whereas a double
+        would take up 8 bytes. An int can only store whole numbers. This makes them less precise than
+        float or double. This means that a value such as 1, 100 or 10000 is perfectly acceptable. A
+        variable which needs to contain a more precise value such as a number which has a decimal point
+        would be much better suited to using a float or double.
+        Let\'s see how we would declare and give values to our numeric variables.
+        private int my int = 320 private float my float = 34 point 0 f private double my double = 15
+        point 5 Note the visual difference between a float and a double value. A float has a lowercase f
+        following the value whereas a double is just the value.</string>
+    <string name="java_varex1_header">Data Types Exercise</string>
+    <string name="java_varex1_intro">In this exercise, you need to drag and drop the values on to
+        the matching data type.</string>
+
+    <string name="java_var_scope">Variables and Scope</string>
+    <string name="java_var_types">Types of variables</string>
+    <string name="java_var_typesa"><![CDATA[
+        There are two types of variables in Java you need to know about: instance variables and
+        local variables.
+        <br/><br/><b>So, whats the difference?</b>
+        <br/>It\'s all about <b>scope</b>!
+        <br/>The scope of a variable is the area in which the variable is accessible.
+        <br/>An instance variable (field) is accessible to the entire class it is declared in. Example:
+        <br/><br/><font color=#0000FF>public class</font> Person
+        <br/>{
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#808080>// this is a field variable, accessible to the entire class Person</font>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>private</font> String <font color=#800080>field</font>;
+        <br/>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#808080>// methods would go here&#8230;</font>
+        <br/>}
+
+        <br/><br/>If a variable is declared in a method it is a local variable and it\'s scope is
+        contained to that method (it can\'t be accessed outside of that method). Example of a local variable:
+
+        <br/><br/><font color=#0000FF>public class</font> Person
+        <br/>{
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#808080>// this is a field variable, accessible to
+        the entire class Person</font>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>private</font> String <font color=#800080>field</font>;
+        <br/>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>public void</font> myMethod()
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=#808080>// this is a local variable,
+        only accessible by myMethod</font>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String local;
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br/>}
+    ]]></string>
+    <string name="java_var_scope_tts">
+        There are two types of variables in Java which you need to know about; instance variables and local variables.
+        So, whats the difference? Its all about scope!
+        the scope of a variable is the area in which the variable is accessible. An instance variable or
+        field is accessible to the entire class it is declared in.
+        An example of a field variable can be seen here named field. The code sample reads:
+        public class person private String field.
+        methods would follow.
+
+        if a variable is declared inside a method, it is a local variable. The scope of a local variable is
+        contained to that method. It can not be accessed outside of that method. An example of a local variable
+        can be seen here where it is named local. The code sample reads:
+        public class person. private string field. public void my method. String local.
+    </string>
+    <string name="java_var_this">This Keyword</string>
+    <string name="java_var_thistext"><![CDATA[
+    Java has a keyword, <font color=#0000FF>this</font> which is a reference to the <i>current</i> object.
+    <font color=#0000FF>this</font> can be used to call a constructor or to get access to the field
+    variables from within the same class.
+
+    <br/><br/>The most common use of <font color=#0000FF>this</font> is to access the field variables
+    in the class that may be being hidden by the use of a local variable or parameter.
+    <br/><br/>If a local variable or parameter has the same name as the variable in a method then the
+    field variable will be overlooked.
+    <br/>If you want to assign a parameter\'s value to a field variable inside of a method,
+    all you will need to do is use the same structure as follows:
+    <br/><font color=#0000FF>this</font>.<font color=#800080>fieldVariable</font> = parameterValue;
+    <br/><br/>We can see a full implementation of how to use <font color=#0000FF>this</font> and how
+    it deals with assigning values to both local and field variables in the image below.
+    ]]></string>
+    <string name="java_var_this1_tts">
+        Java has a keyword, this which is a reference to the current object. this can be used to call
+        a constructor or to get access to the field variables from within the same class. The most
+        common use of this is to access the field variables in the class that may be being hidden by the
+        use of a local variable or parameter.
+        If a local variable or parameter has the same name as the variable in a method then the field
+        variable will be overlooked.
+        If you want to assign a parameter\'s value to a field variable inside of a method,
+        all you will need to do is use the same structure as follows:
+        this dot field Variable = parameter Value;
+        We can see a full implementation of how to use this and how it deals with assigning values to
+        both local and field variables in the image below.
+        Do you know what value will be returned when the method is called?
+    </string>
+    <string name="java_var_this_q">Do you know what value will be returned when the method is called?</string>
+    <string name="java_var_this_expl"><![CDATA[
+    <b>Answer:</b> 20.
+    <br/><br/>This is because we didn\'t return the field variable but the <u>local variable</u>.
+    <br/><br/>You can head over to the next page to test your knowledge with an exercise on scope or
+    keep reading for a line by line explanation of the code above.
+    <br/><br/>The first line is our class header for the class named ThisExampleClass.
+    <br/>We then declare to int field variables x and y.
+    <br/>Our constructor for the class follows, here we initialise the variables by giving them values.
+    We then call a method named myMethod with two arguments (100 and 200). These two values will be given
+    to the parameters of the method (a and b).
+    <br/>This is the myMethod method. It is a private method which must return an int value. We can
+    also see the two int parameters a and b.
+    <br/>We then declare and initialise a local int variable, x with a value of 20.
+    <br/>We then use <font color=#0000FF>this</font> to assign the value of b to the field, y. This means
+    our field variable y now has a value of 200 and not 10.
+    <br/>We do something similar to the <b>field variable x</b>. We assign it the value of a (100).
+    So now the <b>field variable x</b> has a value of 100 and not 5.
+    <br/>So the values of all of our variables are as follows:
+    <br/><b>(local)</b> x = 20
+    <br/><b>(field)</b> x = 100
+    <br/>y = 200
+    <br/><br/>The last line of our method is our return statement. Remember how we said it must return
+    an int value in our method header? This is how we do so.
+    <br/>We return our <b>local variable x</b> which has a value of 20.
+    <br/><br/>Hopefully, you can understand this but if you\'re struggling, don\'t worry, it can take
+    time to understand some of the concepts in Java. Just keep studying and working hard and you will be
+    an expert in no time!
+    ]]></string>
+    <string name="java_var_this2_tts">
+        The answer is 20.
+        This is because we didn\'t return the field variable but the local variable.
+        The first line is our class header for the class named This Example Class. We then declare to
+        int field variables x and y. Our constructor for the class follows, here we initialise the
+        variables by giving them values. We then call a method named my Method with two arguments
+        (100 and 200). These two values will be given to the parameters of the method (a and b).
+        This is the myMethod method. It is a private method which must return an int value. We can
+        also see the two int parameters a and b. We then declare and initialise a local int variable,
+        x with a value of 20. We then use this to assign the value of b to the field, y. This means
+        our field variable y now has a value of 200 and not 10.
+        We do something similar to the field variable x. We assign it the value of a (100). So now the
+        field variable x has a value of 100 and not 5. So the values of all of our variables are as
+        follows:
+        (local) x = 20
+        (field) x = 100
+        y = 200
+        The last line of our method is our return statement. Remember how we said it must return an
+        int value in our method header? This is how we do so. We return our local variable x
+        which has a value of 20. Hopefully, you can understand this but if you\'re struggling, don\'t
+        worry, it can take time to understand some of the concepts in Java. Just keep studying and
+        working hard and you will be an expert in no time!
+    </string>
+
+    <string name="java_varex2_header">Variable Scope Exercise</string>
+    <string name="java_varex2_intro">In this exercise we will be testing your knowledge of variable scope.
+        You are required to review the code and work out what the result of the print statement in myMethod()
+        will be.
+    </string>
+    <string name="java_varex2_code"><![CDATA[
+    <br/><font color=#0000FF>public class</font> Scope
+    <br/>{
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>private int</font> <font color=#800080>x</font>;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>private int</font> <font color=#800080>y</font>;
+    <br/>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>public</font> Scope()
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;{
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=#800080>x</font> = <font color=#0000FF>10</font>;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=#800080>y</font> = <font color=#0000FF>5</font>;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myMethod();
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;}
+    <br/>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>public void</font> myMethod()
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;{
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=#0000FF>int</font> <font color=#800080>y</font>
+    = <font color=#0000FF>100</font>;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(y);
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;}
+    <br/>}
+    ]]></string>
+    <string name="java_varex2_output">What value will be output from the print statement when the code
+        above is executed?</string>
+    <string name="java_varex2_classans">5</string>
+    <string name="java_varex2_localans">100</string>
+
+    <!-- Strings related to JavaMethodsFragment -->
+    <string name="java_methods_header">Methods</string>
+    <string name="java_methods_intro">Excuse the space, this content is currently being developed!
+    \n\nSwipe over to playgrounds to experience methods!</string>
+
+    <string name="java_methodspg_header">Methods Playground</string>
+    <string name="java_methodspg_intro">In this playground, you will have the chance to experiment
+        with methods!
+        \nAs you know, a method is a section of statements which will be executed/run
+        when the method is called(invoked).
+    </string>
+    <string name="java_methodspg_instructions">Use the buttons below to control what John says.
+        View the output box below to see the code you executed!</string>
+    <string name="java_methodspg_output">Output</string>
+    <string name="java_methodspg_hello_output"><![CDATA[
+    <font color=#0000FF>private void</font> sayHello()
+    <br/>{
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#808080>// plays sound file \'hello.wav\'</font>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#800080>helloSound</font>.start();
+    <br/>}
+    ]]></string>
+    <string name="java_methodspg_bye_output"><![CDATA[
+    <font color=#0000FF>private void</font> sayGoodbye()
+    <br/>{
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#808080>// plays sound file \'goodbye.wav\'</font>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#800080>goodbyeSound</font>.start();
+    <br/>}
+    ]]></string>
+    <string name="java_methodspg_wow_output"><![CDATA[
+    <font color=#0000FF>private void</font> sayWow()
+    <br/>{
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#808080>// plays sound file \'wow.wav\'</font>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<font color=#800080>wowSound</font>.start();
+    <br/>}
+    ]]></string>
+
+    <!-- Strings related to JavaCollectionsFragment -->
+    <string name="java_collections">Collections</string>
+    <string name="java_collections_arraylist">ArrayList</string>
+    <string name="java_collections_array">Array</string>
+    <string name="java_collections_list">List</string>
+    <string name="java_collections_hashmap">HashMap</string>
+
+
+    <!-- Strings related to JavaStatementsFragment -->
+    <string name="java_if_header">If Statements</string>
+    <string name="java_if_intro_text">
+        An if statement is the most basic flow control statement.
+        It works by telling the program to execute a part of the code only if a clause has been met.
+        This clause will return a boolean value (true or false) and the necessary code will then be
+        executed.
+        \n\nIf statements can take many forms.
+        \nWe can use methods and operators when constructing our if statement such as:
+    </string>
+    <string name="java_if_intro_example">
+        equals(), &#60;, &#62;, &#38;&#38;, &#124;&#124;, &#61;&#61;
+    </string>
+    <string name="java_if_intro_tts">
+        An if statement is the most basic flow control statement.
+        It works by telling the program to execute a part of the code only if a clause has been met.
+        This clause will return a boolean value (true or false) and the necessary code will then be
+        executed.
+        If statements can take many forms.
+        We can use methods and operators when constructing our if statement such as:
+        equals, less than, greater than, boolean and, boolean or and equality.
+    </string>
+
+    <string name="java_if_realworld_header">
+        A Real World Example
+    </string>
+    <string name="java_if_realworld_text"><![CDATA[
+    It may help to consider how we would use an if statement in our everyday lives.<br/><br/>
+    If we go into a bakery to buy a donut but we only have £1, we would say: <br/>
+    "If the donut cost\'s the same or less than the amount of money I have, I can buy it." <br/><br/>
+    In Java we can show this with the following if statement:<br/>
+    <font color=#0000FF>private int</font> <font color=#800080>ourMoney</font> = <font color=#0000FF>100</font>&#59;
+    <br/><font color=#0000FF>private int</font> <font color=#800080>donutCost</font> = <font color=#0000FF>100</font>&#59;
+    <br/><br/><font color=#0000FF>if</font> (<font color=#800080>donutCost </font> &#62;&#61; <font color=#800080>ourMoney</font>)
+    <br/>&#123;
+    <br/>&nbsp;&nbsp;&nbsp;<font color=#808080>&#47;&#47; buy the donut </font>
+    <br/>&#125; ]]>
+    </string>
+    <string name="java_if_realworld_tts">
+        It may help to consider how we would use an if statement in our everyday lives.
+        If we go into a bakery to buy a donut but we only have £1, we would say:
+        If the donut costs less than or the same as the amount of money we have, we can buy it.
+
+        In Java we can show this with the following if statement:
+        private int our money = 100 private int donut cost = 100.
+        if donut cost is less than or equal to our money
+        then we will buy donut.
+    </string>
+    <string name="java_if_methods_header">
+        Using Methods with If Statements
+    </string>
+    <string name="java_if_methods_text">
+        On the next tab we will look at how we can expand our if
+        statement but let\'s move our focus on to the use of methods in our clause rather than operators.
+        \n\nWe will look into two methods that are used with if statements. These are contains() and
+        equals().
+        \n\nBoth of these methods are used with Strings.
+    </string>
+    <string name="java_if_contains_text"><![CDATA[
+    The contains() method is used to check whether the String contains a certain phrase whereas the
+    equals() method is used as a comparator between two Strings to check whether they are the same.
+    We use the equals() method with Strings and not the == operator!
+
+    <br/><br/>Let\'s see an example of how to use the contains() method.<br/><br/>
+
+    <font color=#0000FF>private</font> String <font color=#800080>name</font> = <font color=#0cc706>&quot;John&quot;</font>&#59;
+    <br/><font color=#0000FF>private</font> String <font color=#800080>message</font> = <font color=#0cc706>&quot;Hi, I am here!&quot;</font>&#59;
+    <br/><br/><font color=#0000FF>if</font> (<font color=#800080>message</font>.contains(<font color=#0cc706>&quot;Hi&quot;</font>))
+    <br/>&#123;
+    <br/>&nbsp;&nbsp;&nbsp;<font color=#808080>&#47;&#47; print a greeting message</font>
+    <br/>&nbsp;&nbsp;&nbsp;System.out.println(<font color=#0cc706>&quot;Hello &quot;</font> + <font color=#800080>name</font>);
+    <br/>&#125;
+
+    <br/><br/>Can you understand what\'s happening in the code?<br/><br/>
+
+    The program will check the String variable (<font color=#800080>message</font>) to see if it
+    contains the phrase
+    <font color=#0cc706>&quot;Hi&quot;</font> and if it does, a greeting will be generated by the
+    program.]]>
+    </string>
+    <string name="java_if_contains_tts">
+        The contains method is used to check whether the String contains a certain phrase whereas the
+        equals method is used as a comparator between two Strings to check whether they are the same.
+        We use the equals method with Strings and not the equality operator!
+
+        Let\'s see an example of how to use the contains method.
+
+        private string name = John private string message = Hi, I am here!
+        if message dot contains hi, then, system dot out dot print line, hello + name.
+
+        Can you understand what is happening in the code?
+        .....
+        The program will check the String variable, message to see if itcontains the phrase Hi and
+        if it does, a greeting will be generated by the program.
+    </string>
+
+    <string name="java_if_equals_text"><![CDATA[
+    Now lets see an example of how the equals() method works.
+    <br/><br/><font color=#0000FF>private</font> String <font color=#800080>user</font> = <font color=#0cc706>&quot;John&quot;</font>&#59;
+    <br/><font color=#0000FF>private</font> String <font color=#800080>text </font>= <font color=#0cc706>&quot;Today is my birthday&quot;</font>&#59;
+    <br/><br/><font color=#0000FF>if</font> (<font color=#800080>text</font>.equals(<font color=#0cc706>&quot;Today is my birthday&quot;</font>))
+    <br/>&#123;
+    <br/>&nbsp;&nbsp;&nbsp;<font color=#808080>&#47;&#47; print a message</font>
+    <br/>&nbsp;&nbsp;&nbsp;System.out.println(<font color=#0cc706>&quot;Happy Birthday &quot;</font> + <font color=#800080>user</font>);
+    <br/>&#125;
+
+    <br/><br/>Here, if the user tells the system that today is their birthday, then the program will
+     print a message wishing them a happy birthday.
+
+    <br/><br/>The equals method checks whether two Strings are exactly the same, if we used
+    <font color=#800080>text</font>.equals(<font color=#0cc706>&quot;My birthday is today&quot;</font>)
+    in the above example, the program will return <b>false</b> as it doesn\'t match the value
+    contained in the variable <font color=#800080>text</font>. ]]>
+    </string>
+    <string name="java_if_equals_tts">
+        now let\'s see an example of how the equals method works.
+        private string user = John private string text = today is my birthday.
+        if text dot equals today is my birthday then
+        system dot out dot print line happy birthday + user.
+
+        here if the user tells the system that today is their birthday, then the program will print
+        a message wishing them a happy birthday.
+
+        The equals method checks whether two strings are exactly the same, if we used text dot equals
+        my birthday is today, in the code example, the program would return false as it does not match
+        the value contained in the variable named text.
+    </string>
+
+    <string name="java_if_robot_text">
+        You can now check any String variables. With these two methods and an if statement, you
+        could build an automated chat bot which you could communicate with!
+    </string>
+
+    <string name="java_statements_else_tab">If then Else</string>
+    <string name="java_statements_else_p1">As we have seen, we can use an if statement to check if our
+        clause is true or false.
+        \n\nWe can expand our if statement to perform actions for both true and false outcomes by
+        adding an else clause for our secondary outcome where we wouldn\'t have enough money to buy
+        a donut.
+    </string>
+    <string name="java_statements_else_code"><![CDATA[ <font color=#0000FF>private int</font>
+    <font color=#800080>ourMoney</font> = <font color=#0000FF>100</font>&#59;
+        <br/><font color=#0000FF>private int</font> <font color=#800080>donutCost</font> = <font color=#0000FF>100</font>&#59;
+        <br/><br/><font color=#0000FF>if</font> (<font color=#800080>donutCost</font> &#62;&#61; <font color=#800080>ourMoney</font>)
+        <br/>&#123;
+        <br/><font color=#808080>&nbsp;&nbsp;&nbsp;&#47;&#47; buy the donut</font>
+        <br/>&#125;
+        <br/><font color=#0000FF>else</font>
+        <br/>&#123;
+        <br/><font color=#808080>&nbsp;&nbsp;&nbsp;&#47;&#47; leave the bakery without the donut</font>
+        <br/>&#125; ]]>
+    </string>
+    <string name="java_statements_else_code_tts">
+        private int our money = 100
+        private int donut cost = 100
+        if donut cost is less than or equal to our money
+        we will buy the donut
+        else we will leave the bakery without the donut
+    </string>
+    <string name="java_statements_else_p2">If then Else statements can contain; numeric, Strings and
+        boolean variables as well as methods.
+        \n\nUsing methods would be used in the same way, you would just need an else to run code for
+        different outcomes!
+        \n\nWe\'ve now seen how if then else statements are constructed in the attempt to handle
+        different outcomes relating to a clause.
+        \n\nGo to the next tab to test your knowledge with If then Else statements!
+    </string>
+
+    <string name="java_ifelse_exercise">If then Else Exercise</string>
+    <string name="java_statements_ifelse_ex1"><![CDATA[
+        Our first exercise is going to task you with comparing 2 int variables.
+        <br/><br/>Scenario: When you go on holiday, you have a <b>weight</b> limit to the suitcase you check in.
+        This <b>allowance</b> is usually 22kg.
+        <br/>Try and complete the code below which prints a message for <b>both true and false</b> outcomes.
+        ]]>
+    </string>
+    <string name="java_statements_ifelse_ae1">Our advanced exercise will ask you to implement an if
+        then else statement which requires the use of methods.
+    </string>
+
+    <!-- Strings related to JavaLoopsFragment -->
+    <string name="java_loops_section">Loops</string>
+    <string name="java_loops_for_button">For</string>
+    <string name="java_loops_while_button">While</string>
+
+    <!-- Strings related to JavaRelationshipsFragment -->
+    <string name="java_relationships_section">Relationships</string>
+    <string name="java_inheritance_header">Inheritance</string>
+    <string name="java_inheritance_intro">Inheritance is also known as Specialisation.</string>
+    <string name="java_inheritance_what">What is Inheritance?</string>
+    <string name="java_inheritance_whata">Inheritance allows a class to use the properties of another
+        class.
+        \n\nA child class inherits the states and behaviour from the parent class.
+        \n\nThe child is an extension of the parent.
+    </string>
+    <string name="java_inheritance_java">Inheritance in Java</string>
+    <string name="java_inheritance_child">Inheritance in Java works similar to how a child inherits
+        features from their parents. You inherit half of your features from your father and the other
+        half from your mother.
+    </string>
+    <string name="java_inheritance_diff">Consider your parents to be one joint entity, Parents.
+        \n\nThis will help you understand Java inheritance as Java only allows a child to inherit from
+        one parent whilst a parent can have many children, but only one parent.
+    </string>
+    <string name="java_inheritance_supsub">The child classes are called subclasses and the parent class is
+    the superclass.</string>
+    <string name="java_inheritance_features">
+        In Java, the subclass will be able to access any of the public and protected fields and methods
+        that belong to the superclass. This will let the subclass have the same functionality as the
+        superclass but also allow it to override the method so that it can implement it\'s own functionality
+        which differs from the superclass.
+    </string>
+    <string name="java_inheritance_parents_tts">
+        Inheritance in Java works similar to how a child inherits features from their parents.
+        You inherit half of your features from your father and the other half from your mother.
+        Consider your parents to be one joint entity called Parents.
+        \n\nThis will help you understand Java inheritance as Java only allows a child to inherit from
+        one parent whilst a parent can have many children, but only one parent.
+        The child classes are called subclasses and the parent class is the superclass.
+        In Java, the subclass will be able to access any of the public and protected fields and methods
+        that belong to the superclass. This will let the subclass have the same functionality as the
+        superclass but also allow it to override the method so that it can implement it\'s own functionality
+        which differs from the superclass.
+    </string>
+    <string name="java_inheritance_extends">Extends Keyword</string>
+    <string name="java_inheritance_extends_intro">In order to make a class a subclass of another class
+        we must use the keyword extends.\nWe must say that the subclass extends the superclass in the
+        class header of the subclass.\n\nHere is an example where GreenApple is the subclass and Apple
+        is the superclass.
+    </string>
+    <string name="java_inheritance_extends_codea"><![CDATA[ <font color=#0000FF>public class </font>
+     GreenApple <font color=#0000FF>extends</font> Apple { ]]></string>
+    <string name="java_inheritance_extends_tts">
+        In order to make a class a subclass of another class we must use the keyword extends.
+        \nWe must say that the subclass extends the superclass in the class header of the subclass.
+        \n\nHere is an example where GreenApple is the subclass and Apple is the superclass.
+        public class green apple extends apple
+    </string>
+    <string name="java_inheritance_extends_exer">Let\'s try an exercise on making a class a subclass.
+        \n\nWe have two public classes, Car and Vehicle. Can you write the class header for the appropriate
+        subclass?</string>
+    <string name="java_inher_ext_hint">Your class header here</string>
+    <string name="java_realisation_header">Realisation</string>
+
+    <!-- Strings related to JavaTestFragment -->
+    <string name="java_test_landing_header">Java Test</string>
+    <string name="java_test_landing_intro">You will be tested on content found throughout the Java module.</string>
+    <string name="java_test_question_header">Question </string>
+
+    <!-- Strings related to TestResultFragment -->
+    <string name="test_result_score_text">You have scored</string>
+    <string name="test_result_grade_text">You have achieved the following grade</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

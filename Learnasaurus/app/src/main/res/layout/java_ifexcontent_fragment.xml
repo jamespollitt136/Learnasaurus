@@ -1,0 +1,300 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaIfExerciseContent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:id="@+id/javaIfExScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/javaIfExHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/java_ifelse_exercise"
+                android:textColor="@color/textGreen"
+                android:textSize="24sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/javaIfEx1Header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/exercise_string"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/javaIfEx1Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/java_statements_ifelse_ex1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/javaIfExHintText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/hint_string"
+                android:textColor="@color/textGreen"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ifExWeightDec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="int weight = 19;"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/javaIfExLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="35dp">
+
+                <TextView
+                    android:id="@+id/ifExAllowDec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="int allowance ="
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/javaIfExIfText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ifExAllowDec"
+                    android:text="if ("
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/varOneInputArea"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ifExAllowDec"
+                    android:layout_marginRight="4dp"
+                    android:layout_toEndOf="@+id/javaIfExIfText"
+                    android:layout_toRightOf="@+id/javaIfExIfText"
+                    android:tag="1"
+                    android:text=" weight"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/javaIfExLt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ifExAllowDec"
+                    android:layout_marginRight="4dp"
+                    android:layout_toEndOf="@+id/varOneInputArea"
+                    android:layout_toRightOf="@+id/varOneInputArea"
+                    android:text="&lt;="
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifExVarValueInput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_toEndOf="@+id/javaIfExLt"
+                    android:layout_toRightOf="@+id/javaIfExLt"
+                    android:tag="0"
+                    android:text="22;"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/varTwoInputArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ifExAllowDec"
+                    android:layout_marginRight="4dp"
+                    android:layout_toEndOf="@+id/javaIfExLt"
+                    android:layout_toRightOf="@+id/javaIfExLt"
+                    android:tag="2"
+                    android:text="allowance"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifExClosingBraceOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/varTwoInputArea"
+                    android:layout_toEndOf="@+id/varTwoInputArea"
+                    android:layout_toRightOf="@+id/varTwoInputArea"
+                    android:text=") {"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifExSystemOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/javaIfExIfText"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="6dp"
+                    android:text="System.out.println ("
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifExMessageOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/ifExSystemOne"
+                    android:layout_alignBottom="@+id/ifExSystemOne"
+                    android:layout_toEndOf="@+id/ifExSystemOne"
+                    android:layout_toRightOf="@+id/ifExSystemOne"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:tag="3"
+                    android:text='"There is no fee."'
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifMessageOneClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/ifExMessageOne"
+                    android:layout_alignBottom="@+id/ifExMessageOne"
+                    android:layout_toEndOf="@+id/ifExMessageOne"
+                    android:layout_toRightOf="@+id/ifExMessageOne"
+                    android:text=");"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifExElse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/ifExSystemOne"
+                    android:layout_marginTop="6dp"
+                    android:text="else {"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifExSystemOutTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ifExElse"
+                    android:layout_marginTop="6dp"
+                    android:layout_toEndOf="@+id/javaIfExIfText"
+                    android:layout_toRightOf="@+id/javaIfExIfText"
+                    android:text='System.out.println("There is a fee");'
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/ifExClosingBrace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ifExSystemOutTwo"
+                    android:text="}"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/javaIfExMoversLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/weightMover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="1"
+                    android:text="weight"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/messageMover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_toEndOf="@+id/weightMover"
+                    android:layout_toRightOf="@+id/weightMover"
+                    android:tag="3"
+                    android:text='"There is no fee."'
+                    android:textColor="@color/blue"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/valueMover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_toEndOf="@+id/messageMover"
+                    android:layout_toRightOf="@+id/messageMover"
+                    android:tag="0"
+                    android:text="22;"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/allowMover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_toEndOf="@+id/valueMover"
+                android:layout_toRightOf="@+id/valueMover"
+                android:tag="2"
+                android:text="allowance"
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ifEx1Check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/buttonGreen"
+                android:text="@string/check_answer_button"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

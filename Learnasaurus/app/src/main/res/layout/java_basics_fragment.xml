@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.james.learnasaurus.JavaBasicsFragment"
+    android:id="@+id/java_basics_frag"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/javaBasicsLayout">
+
+        <TextView
+            android:text="@string/lesson_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/javaLessonText"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/javaBasicsScroll">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/javaBasicsLessonContainer"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/javaBasicsLessonsRow1"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        app:srcCompat="@drawable/oop_logo"
+                        android:contentDescription="@string/java_oop_descr"
+                        android:id="@+id/javaOopImage"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/objects_logo"
+                        android:contentDescription="@string/java_objects_descr"
+                        android:id="@+id/javaObjectsImage"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/javaBasicsLessonsRow2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/classes_logo"
+                        android:contentDescription="@string/java_classes_descr"
+                        android:id="@+id/javaClassesImage"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/naming_logo"
+                        android:contentDescription="@string/java_naming_descr"
+                        android:id="@+id/javaNamingImage"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/javaBasicsLessonsRow3"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/variables_logo"
+                        android:contentDescription="@string/java_variables_descr"
+                        android:id="@+id/javaVariablesImage"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/methods_logo"
+                        android:id="@+id/javaMethodsImage"
+                        android:contentDescription="@string/java_methods_descr"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

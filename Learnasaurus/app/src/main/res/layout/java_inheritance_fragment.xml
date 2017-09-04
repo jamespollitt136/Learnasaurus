@@ -1,0 +1,210 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaInheritanceFragment"
+    android:id="@+id/java_inheritance_frag"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/inheritance_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/inheritanceContainer">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/java_inheritance_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaInherHeader"
+                    android:textColor="@color/textGreen"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/tts_speaker"
+                    android:id="@+id/inherTtsImage"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_inheritance_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherIntro"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:text="@string/java_inheritance_what"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherWhat"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="@string/java_inheritance_whata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherWhatAns"
+                android:layout_marginBottom="40dp"
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:text="@string/java_inheritance_java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherJava"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/inherFamCOntainer">
+
+                <TextView
+                    android:text="@string/java_inheritance_child"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaInherFamily"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/inheritance_family"
+                    android:id="@+id/inherFamilyImage"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_inheritance_diff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/JavaInherDif"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/inheritance_image"
+                android:id="@+id/inheritanceImage"
+                android:layout_height="350dp" />
+
+            <TextView
+                android:text="@string/java_inheritance_supsub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherSub"
+                android:elevation="0dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:text="@string/java_inheritance_features"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherFeatures"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp" />
+
+            <TextView
+                android:text="@string/java_inheritance_extends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherExtends"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="@string/java_inheritance_extends_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inherExtendsIntro"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:text="@string/java_inheritance_extends_codea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherExtendsCode"
+                android:textSize="18sp"
+                android:fontFamily="monospace"
+                android:typeface="monospace"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_marginBottom="40dp" />
+
+            <TextView
+                android:text="@string/exercise_string"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaInherExtEx"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="@string/java_inheritance_extends_exer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inherExerciseText"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/extendsExerciseInput"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp"
+                android:hint="@string/java_inher_ext_hint" />
+
+            <Button
+                android:text="@string/check_answer_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inherExtCheckBtn"
+                android:background="@color/buttonGreen"
+                android:textColor="@color/white"
+                android:layout_marginBottom="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

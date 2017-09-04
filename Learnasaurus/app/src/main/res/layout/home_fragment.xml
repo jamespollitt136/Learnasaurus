@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.HomeFragment"
+    android:background="@color/white"
+    android:id="@+id/home_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homeLinLayout">
+
+        <ImageView
+            android:src="@drawable/app_logo"
+            android:id="@+id/homeLogoView"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo_description"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeTitleView"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/app_tagline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeTaglineView"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/course_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeCourseText"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/homeScroll">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/courseContainer">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/homeCourseRow1"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        app:srcCompat="@drawable/home_computingtext"
+                        android:contentDescription="@string/home_comp_descr"
+                        android:id="@+id/homeCompImage"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/home_englishtext"
+                        android:contentDescription="@string/home_english_descr"
+                        android:id="@+id/homeEnglishImage"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/homeCourseRow2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/home_geography"
+                        android:contentDescription="@string/home_geography_descr"
+                        android:id="@+id/homeGeographyImage"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/home_history"
+                        android:contentDescription="@string/home_history_descr"
+                        android:id="@+id/homeHistoryImage"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/homeCourseRow3"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/home_maths"
+                        android:contentDescription="@string/home_maths_descr"
+                        android:id="@+id/homeMathsImage"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/home_science"
+                        android:contentDescription="@string/home_science_descr"
+                        android:id="@+id/homeScienceImage"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test_result_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.james.learnasaurus.TestResultFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/testResultHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/textGreen"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/testScoreText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/test_result_score_text"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/testScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/textGreen"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/testGradeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/test_result_grade_text"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/testGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/textGreen"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/testResultContinueBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="35dp"
+            android:background="@color/buttonGreen"
+            android:text="Button"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="@string/continue_button" />
+    </LinearLayout>
+
+</FrameLayout>

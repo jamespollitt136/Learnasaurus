@@ -1,0 +1,252 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaNamingFragment"
+    android:id="@+id/java_naming_frag"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/namingScroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/namingTextContainer">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/namingHeaderContainer"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="@string/java_basics_naming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namingHeaderText"
+                    android:textSize="24sp"
+                    android:textColor="@color/textGreen"
+                    android:typeface="sans"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp" />
+
+                <ImageView
+                    app:srcCompat="@drawable/tts_speaker"
+                    android:id="@+id/namingTtsImage"
+                    android:layout_weight="1"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_naming_convq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingConventionHeaderText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="@string/java_naming_conva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingConvAText"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:text="@string/java_naming_camelcase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingCamelHeader"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/camelCaseContainer">
+
+                <TextView
+                    android:text="@string/java_naming_cameluse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/camelCaseText"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    app:srcCompat="@drawable/java_naming_camel"
+                    android:id="@+id/camelImage"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_naming_camel_famous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingCamelFamousText"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:text="@string/java_naming_examples"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingExamplesHeader"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="@string/java_naming_examplesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingExamplesText"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="@string/exercise_string"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingExerciseHeader"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="@string/java_naming_exercise_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingExerciseIntro"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/male_person"
+                android:id="@+id/namingPersonImage"
+                android:layout_weight="1"
+                android:layout_height="250dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/namingClassContainer"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/class_text"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namingClassLabel"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/namingClassInput"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/namingVariablesContainer"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:text="@string/variable_text"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namingVariablesLabel"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/namingVariablesInput"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/namingMethodsContainer"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="@string/method_text"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namingMethodLabel"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:id="@+id/namingMethodsInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <Button
+                android:text="@string/check_answer_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namingCheckButton"
+                android:layout_weight="1"
+                android:background="@color/buttonGreen"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

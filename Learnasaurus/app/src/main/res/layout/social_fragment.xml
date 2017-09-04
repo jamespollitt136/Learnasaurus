@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.SocialFragment"
+    android:background="@color/white"
+    android:id="@+id/social_frag">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/social_pages_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/socialTitleView"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_height="450dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:id="@+id/socialGrid"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="300dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@mipmap/ic_social_fb_circle"
+            android:id="@+id/socialFacebookLogo"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/social_facebook_description" />
+
+        <TextView
+            android:text="@string/social_facebook_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/socialFacebookText"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@mipmap/ic_social_twitter_circle"
+            android:id="@+id/socialTwitterLogo"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/social_twitter_description" />
+
+        <TextView
+            android:text="@string/social_twitter_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/socialTwitterText"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black" />
+    </GridLayout>
+
+</FrameLayout>

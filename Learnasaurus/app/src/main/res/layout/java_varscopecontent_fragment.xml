@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaVarScopeContent"
+    android:id="@+id/java_scope_frag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/java_var_scroll"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/varHeaderContainer"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="@string/java_var_scope"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaVarScopeHeader"
+                    android:textSize="24sp"
+                    android:textColor="@color/textGreen"
+                    android:fontFamily="sans-serif-condensed"
+                    android:typeface="sans"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/tts_speaker"
+                    android:id="@+id/scopeTtsImage"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_var_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarTypesScope"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="@string/java_var_typesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarTypesAns"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp" />
+
+            <TextView
+                android:text="@string/java_var_this"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarThisHeader"
+                android:textSize="18sp"
+                android:typeface="sans"
+                android:fontFamily="sans-serif-condensed" />
+
+            <TextView
+                android:text="@string/java_var_thistext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarThisText"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/java_var_this"
+                android:id="@+id/javaThisCodeImage"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:text="@string/java_var_this_q"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarThisQText"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:text="@string/show_answer_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarThisExp"
+                android:textSize="20sp"
+                android:textColor="@color/textGreen"
+                android:layout_marginBottom="40dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

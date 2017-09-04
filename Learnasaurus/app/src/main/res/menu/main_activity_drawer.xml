@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/homeGroup">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home_option"
+            android:icon="@drawable/ic_home_black" />
+    </group>
+    <group android:id="@+id/gradesGroup">
+        <item android:title="@string/nav_mygrades_option"
+            android:id="@+id/nav_accomplishments"
+            android:icon="@drawable/ic_grades_black" />
+        <item android:title="@string/nav_leaderboard_option"
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_scoreboard" />
+    </group>
+
+    <group android:id="@+id/socialGroup" >
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/nav_socialpresence_option" />
+    </group>
+
+    <group android:id="@+id/helpGroup" >
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black"
+            android:title="@string/nav_about_option" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/nav_settings_option"
+            android:icon="@drawable/ic_settings_black" />
+    </group>
+
+    <group android:id="@+id/logoutGroup" >
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/nav_logout_option" />
+    </group>
+</menu>

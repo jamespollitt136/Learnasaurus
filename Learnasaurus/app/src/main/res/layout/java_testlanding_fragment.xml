@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/java_testlanding_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.james.learnasaurus.JavaTestLandingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/javaTestLandingScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/javaTestLandingTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:gravity="center_horizontal|center"
+                android:text="@string/java_test_landing_header"
+                android:textColor="@color/textGreen"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/javaTestLandingIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/java_test_landing_intro"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/javaTestLandingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginStart="50dp"
+                android:background="@color/textGreen"
+                android:text="@string/continue_button"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

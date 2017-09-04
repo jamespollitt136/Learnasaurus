@@ -1,0 +1,229 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.ComputingOopFragment"
+    android:id="@+id/comp_oop_frag"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/compOopScroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/compOopTextContainer">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/compOopHeadContainer">
+
+                <TextView
+                    android:text="@string/java_basics_oop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/compOopHeaderText"
+                    android:textSize="24sp"
+                    android:textColor="@color/textGreen"
+                    android:typeface="sans"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/tts_speaker"
+                    android:id="@+id/oopTtsImage"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_oop_what"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/compOopWhatText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="@string/java_basics_oop_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/compOopWhatExpText"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:text="@string/java_basics_oop_advq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/compOopAdvText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="@string/java_basics_oop_adva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/compOopAdvAText"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="@string/java_basics_oop_disq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/compOopDisText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="@string/java_basics_oop_disa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/compOopDisAText"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:text="@string/java_basics_oop_usesq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/compOopUsesText"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="0,1,2"
+                android:id="@+id/oopUsesTable"
+                android:layout_marginBottom="15dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopCsharpText"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:text="@string/lang_csharp"
+                        android:padding="5dp"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:text="@string/lang_dart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopDartText"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:padding="5dp"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:text="@string/lang_java"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopJavaText"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:text="@string/lang_lingo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopLingoText"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:text="@string/lang_php"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopPhpText"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:text="@string/lang_python"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopPythonText"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:text="@string/lang_ruby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopRubyText"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:text="@string/lang_swift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopSwiftText"
+                        android:padding="5dp"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:text="@string/lang_vb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/oopVisualBasicText"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:textAlignment="center" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

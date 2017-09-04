@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03a678</color>
+    <color name="colourAccentGreen">#8fc34b</color>
+
+    <!-- My added colours -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#f44336</color>
+    <color name="green">#009688</color>
+    <color name="purple">#37004d</color>
+    <color name="deepPurple">#673ab7</color>
+    <color name="orange">#e67e22</color>
+    <color name="deepOrange">#ff5722</color>
+    <color name="grey">#2d3236</color>
+    <color name="greyTwo">#3c4147</color>
+    <color name="blue">#3949ab</color>
+    <color name="lightBlue">#1e88e5</color>
+    <color name="buttonGreen">#03a678</color>
+    <color name="textGreen">#009778</color>
+    <color name="pink">#f8bbd0</color>
+    <color name="brightPink">#FF4081</color> <!-- This colour is the original colorAccent -->
+    <color name="brown">#795548</color>
+    <color name="yellow">#f8dc3d</color>
+    <color name="dialogGreen">#86cfab</color>
+    <color name="blueGrey">#263238</color>
+    <color name="buttonGrey">#e7e7e7</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/wrongImage"
+        android:gravity="center"
+        android:background="#CC3333"
+        android:src="@drawable/wrong_x"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MESSAGE"
+        android:id="@+id/wrongMessage"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/wrongImage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/ok_button"
+        android:id="@+id/wrongButton"
+        android:layout_below="@+id/wrongMessage"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:background="#CC3333"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+</RelativeLayout>

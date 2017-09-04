@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaElseContent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/javaIfScroll"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/elseTextContainer">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/elseHeaderContainer">
+
+                <TextView
+                    android:text="@string/java_statements_else_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaElseHeader"
+                    android:textColor="@color/textGreen"
+                    android:textSize="24sp"
+                    android:typeface="sans"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/tts_speaker"
+                    android:id="@+id/elseTtsImage"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_statements_else_p1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaElseIntro"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:text="@string/java_statements_else_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaElseCode"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:typeface="monospace"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:text="@string/java_statements_else_p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaElseP2"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

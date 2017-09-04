@@ -1,0 +1,134 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.ComputingFragment"
+    android:id="@+id/computing_frag"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/compLayout">
+
+        <TextView
+            android:text="@string/subject_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/compSubjectText"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/compScroll">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/subjectContainer"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/compSubjectRow1"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        app:srcCompat="@drawable/comp_csharp"
+                        android:contentDescription="@string/comp_csharp_descr"
+                        android:id="@+id/compCsharpImage"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/comp_css"
+                        android:contentDescription="@string/comp_css_descr"
+                        android:id="@+id/compCssImage"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/compSubjectRow2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/comp_html"
+                        android:contentDescription="@string/comp_html_descr"
+                        android:id="@+id/compHtmlImage"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/comp_java"
+                        android:contentDescription="@string/comp_java_descr"
+                        android:id="@+id/compJavaImage"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/compSubjectRow3"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/comp_javascript"
+                        android:id="@+id/compJavascriptImage"
+                        android:contentDescription="@string/comp_javascript_descr"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/comp_php"
+                        android:id="@+id/compPhpImage"
+                        android:contentDescription="@string/comp_php_descr"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/compSubjectRow4"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/comp_ruby"
+                        android:id="@+id/compRubyImage"
+                        android:contentDescription="@string/comp_ruby_descr"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/comp_swift"
+                        android:contentDescription="@string/comp_swift_descr"
+                        android:id="@+id/compSwiftImage"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

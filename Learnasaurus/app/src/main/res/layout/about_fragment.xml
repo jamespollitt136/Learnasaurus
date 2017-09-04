@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.AboutFragment"
+    android:background="@color/white"
+    android:id="@+id/about_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aboutScroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/aboutContainer">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aboutTitleCard"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp">
+
+                <TextView
+                    android:text="@string/about_us_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutTitleView"
+                    android:typeface="sans"
+                    android:textSize="24sp"
+                    android:textAlignment="viewStart"
+                    android:gravity="start"
+                    android:textColor="@color/textGreen"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginLeft="10dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/aboutInfoCard"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp">
+
+                <TextView
+                    android:text="@string/about_goal_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutGoalView"
+                    android:textSize="18sp"
+                    android:typeface="normal"
+                    android:textColor="@color/black"
+                    android:textAlignment="viewStart"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="22dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/aboutServicesCard"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/aboutImageLayout"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="75dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        app:srcCompat="@drawable/ic_android_bugdroid"
+                        android:id="@+id/aboutBugdroidImage"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/about_bugdroid_description" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_android_studio"
+                        android:id="@+id/aboutStudioImage"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/about_studio_description" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="@string/about_android_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutAndroidView"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:gravity="start"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="70dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/aboutDevCard"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp">
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_uos_logo"
+                    android:id="@+id/aboutUosLogo"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/about_uos_description"
+                    android:layout_marginTop="-25dp" />
+
+                <TextView
+                    android:text="@string/about_copyright_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutDeveloperView"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="22dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/aboutVersionCard"
+                android:layout_marginEnd="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="@string/about_version_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutVersionView"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="22dp" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

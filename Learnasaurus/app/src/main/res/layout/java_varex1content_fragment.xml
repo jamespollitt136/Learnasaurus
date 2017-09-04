@@ -1,0 +1,169 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaVarTypesExerciseContent"
+    android:id="@+id/java_varex1_frag"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/varTypesExScroll"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:text="@string/java_varex1_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/varEx1Header"
+                android:textSize="24sp"
+                android:textColor="@color/textGreen"
+                android:typeface="sans"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/varEx1Intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="@string/java_varex1_intro"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TableLayout
+                android:id="@+id/varEx1Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:stretchColumns="0,1,2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/floatTypeImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="0"
+                        app:srcCompat="@drawable/java_var_float_t" />
+
+                    <ImageView
+                        android:id="@+id/stringValueImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="1"
+                        app:srcCompat="@drawable/java_var_string_v" />
+
+                    <ImageView
+                        android:id="@+id/intTypeImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="2"
+                        app:srcCompat="@drawable/java_var_int_t" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/doubleValueImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="3"
+                        app:srcCompat="@drawable/java_var_double_v" />
+
+                    <ImageView
+                        android:id="@+id/booleanValueImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="4"
+                        app:srcCompat="@drawable/java_var_bool_v" />
+
+                    <ImageView
+                        android:id="@+id/stringTypeImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="1"
+                        app:srcCompat="@drawable/java_var_string_t" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/charTypeImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="5"
+                        app:srcCompat="@drawable/java_var_char_t" />
+
+                    <ImageView
+                        android:id="@+id/intValueImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="2"
+                        app:srcCompat="@drawable/java_var_int_v" />
+
+                    <ImageView
+                        android:id="@+id/charValueImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="5"
+                        app:srcCompat="@drawable/java_var_char_v" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/booleanTypeImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="4"
+                        app:srcCompat="@drawable/java_var_bool_t" />
+
+                    <ImageView
+                        android:id="@+id/floatValueImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="0"
+                        app:srcCompat="@drawable/java_var_float_v" />
+
+                    <ImageView
+                        android:id="@+id/doubleTypeImage"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:tag="3"
+                        app:srcCompat="@drawable/java_var_double_t" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/varEx1Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonGreen"
+                android:text="@string/check_answer_button"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

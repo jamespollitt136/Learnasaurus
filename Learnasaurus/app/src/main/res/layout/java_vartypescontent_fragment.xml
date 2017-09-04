@@ -1,0 +1,270 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaVarTypesContent"
+    android:id="@+id/java_vartypes_frag"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/java_var_scroll"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/varTypesHeader"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:text="@string/java_var_dt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/javaVarDataTypesHeader"
+                    android:layout_marginTop="10dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/textGreen"
+                    android:fontFamily="sans-serif-condensed"
+                    android:typeface="sans"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/tts_speaker"
+                    android:id="@+id/typesTtsImage"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/java_var_what"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarWhat"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="@string/java_var_whata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarWhatAns"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="40dp" />
+
+            <TextView
+                android:text="@string/java_var_dtypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarDatatypes"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="@string/java_var_primdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarDataTypesAns"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:text="@string/java_var_primitive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarPrimHeader"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="@string/java_var_primtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarPrimText"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="0,1,2,3"
+                android:id="@+id/primDataTypesTable"
+                android:layout_marginBottom="40dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/primRowOne"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:text="@string/bool_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/boolTextView"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:text="@string/byte_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/byteTextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:text="@string/char_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/charTextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:text="@string/double_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/doubleTextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/primRowTwo"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:text="@string/float_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/floatTextView"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:text="@string/int_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/intTextView"
+                        android:textSize="18sp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:text="@string/long_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/longTextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:text="@string/short_string"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/shortTextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:text="@string/java_var_reference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarRefHeader"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="@string/java_var_refdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/javaVarRefText"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp" />
+
+            <TextView
+                android:id="@+id/javaVarCharText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java_var_char"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/javaVarCharTypesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java_var_chartypes"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:id="@+id/javaVarLogText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java_var_logic"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/javaVarLogTypesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java_var_logtypes"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:id="@+id/javaVarNumText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java_var_numeric"
+                android:fontFamily="sans-serif-condensed"
+                android:typeface="sans"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/javaVarNumTypesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java_var_numtypes"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

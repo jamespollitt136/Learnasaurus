@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/java_methods_pg_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.james.learnasaurus.JavaMethodsPlayground">
+
+
+    <ScrollView
+        android:id="@+id/methodsPgScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:id="@+id/methPgLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/methPgHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/java_methodspg_header"
+                android:textColor="@color/textGreen"
+                android:textSize="24sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/methPgIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/java_methodspg_intro"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/methPgPersonImg"
+                android:layout_width="200dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/male_person" />
+
+            <TextView
+                android:id="@+id/methPgInstructions1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="@string/java_methodspg_instructions"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/methControlsFirst"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/methPgHelloBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="sayHello()"
+                    android:textAllCaps="false"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/methPgWowBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:layout_weight="1"
+                    android:text="sayWow()"
+                    android:textAllCaps="false"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/methControlsSec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/methPgByeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="sayGoodbye()"
+                    android:textAllCaps="false"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/methPgOutputHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/java_methodspg_output"
+                android:textSize="18sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/methPgOutputBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "165774611886",
+    "firebase_url": "https://learnasaurus-14e83.firebaseio.com",
+    "project_id": "learnasaurus-14e83",
+    "storage_bucket": "learnasaurus-14e83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165774611886:android:9f0f193aa6e13436",
+        "android_client_info": {
+          "package_name": "com.example.james.learnasaurus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165774611886-8pfoimoj4qpepruid1tm1mv0r9ee455j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.james.learnasaurus",
+            "certificate_hash": "ec4d5914d9a7e87f87a751659a6465b6c1ab2d4b"
+          }
+        },
+        {
+          "client_id": "165774611886-qidbp5kuv54ubr2lpql49lej5r2e2thq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnIQO0SPExkEoVuJIZv3mDwv1GRRKzwJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165774611886-qidbp5kuv54ubr2lpql49lej5r2e2thq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

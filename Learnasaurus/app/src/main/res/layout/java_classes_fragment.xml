@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/java_class_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.james.learnasaurus.JavaClassesFragment">
+
+    <ScrollView
+        android:id="@+id/javaClassesScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/classHeaderContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/classHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/java_basics_classes"
+                    android:textColor="@color/textGreen"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/classTtsImage"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/tts_speaker" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/javaClassIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="@string/java_classes_intro"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <VideoView
+                android:id="@+id/javaClassVideo"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/javaClassVidText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="@string/java_classes_vid_text" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.james.learnasaurus.JavaVarScopeExerciseContent"
+    android:id="@+id/var_scopeex_frag"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/varScopeExScroll"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:text="@string/java_varex2_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/varEx2Header"
+                android:textSize="24sp"
+                android:textColor="@color/textGreen"
+                android:typeface="sans"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:text="@string/java_varex2_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/varEx2Intro"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:text="@string/java_varex2_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/varEx2Code"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="40dp" />
+
+            <TextView
+                android:text="@string/java_varex2_output"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/varEx2OutputText"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="25dp" />
+
+            <TextView
+                android:text="@string/answer_string"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/varExAnswerText"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/varEx2RadioGroup">
+
+                <RadioButton
+                    android:text="@string/java_varex2_classans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/varExClassRadio"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:text="@string/java_varex2_localans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/varExLocalRadio"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:gravity="center|start" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
